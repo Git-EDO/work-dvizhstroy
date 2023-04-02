@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head itemscope itemtype="http://schema.org/WPHeader">
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="image/x-icon" href="/favicon.ico" rel="shortcut icon" />
+    <link type="Image/x-icon" href="/favicon.ico" rel="icon" />
     <link rel="stylesheet" href="./styles/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./styles/styles.css" />
-    <title>Аренда спецтехники с доставкой по России</title>
+    <title itemprop="headline">Аренда спецтехники с доставкой по России</title>
+    <meta
+      itemprop="description"
+      name="description"
+      content="Аренда спецтехники с доставкой по России. Услуги манипулятора, экскаватора, погрузчика, воровайки и другой спецтехники. Телефон: +7(951)664-84-94"
+    />
+    <meta
+      itemprop="keywords"
+      name="keywords"
+      content="подъемник, манипулятор заказать, воровайки, спецтехника, автокран, кму, крановщик, автовышка, экскаваторщик, купить кму, крановая установка, аренда спецтехники, аренда автовышки, услуги погрузчика"
+    />
   </head>
-  <body>
+  <body class="lock-padding">
     <div class="container">
       <header class="hero-header">
         <div class="hero-logo">
@@ -24,7 +36,11 @@
           <a href="mailto:dvizhstroy@yandex.ru">dvizhstroy@yandex.ru</a>
         </div>
         <div class="hero-social">
-          <a href="#" class="tg-social yellow-orange-icon">
+          <a
+            href="https://t.me/+79516648494"
+            class="tg-social yellow-orange-icon"
+            target="_blank"
+          >
             <svg
               width="30"
               height="30"
@@ -38,7 +54,11 @@
               />
             </svg>
           </a>
-          <a href="#" class="wa-social yellow-orange-icon">
+          <a
+            href="https://wa.me/+79516648494"
+            class="wa-social yellow-orange-icon"
+            target="_blank"
+          >
             <svg
               width="30"
               height="30"
@@ -57,7 +77,57 @@
           <a href="tel:+79516648494">+7 (951) 664-84-94</a>
         </div>
       </header>
-      <main>
+    </div>
+    <main>
+      <div class="container">
+        <section class="technical-text">
+          <div itemscope itemtype="http://schema.org/Article">
+            <h2 itemprop="headline">
+              Аренда спецтехники с доставкой по России
+            </h2>
+            <article itemprop="articleBody">
+              <p>
+                ООО "ДвижСтрой" предоставляет услуги аренды спецтехники и
+                доставки её по всей России. В нашем парке более 25 единиц
+                техники, включая автовышку, манипулятор, экскаватор и другие.
+                Более 10 лет на рынке и имеем более 3000 довольных заказчиков.
+              </p>
+              <p>Предоставляем услуги</p>
+              <ul>
+                <li>манипулятора,</li>
+                <li>погрузчика,</li>
+                <li>экскаватора,</li>
+                <li>автовышки,</li>
+                <li>и другой спецтехники</li>
+              </ul>
+              <p>
+                для различных нужд наших клиентов. У нас вы можете заказать
+                спецтехнику на любой срок. Предоставляем гибкую систему
+                ценообразования и всегда готовы пойти на встречу нашим клиентам.
+              </p>
+              <p>
+                Так же предоставляем договор аренды спецтехники, который
+                подписывается до начала работ. Мы уверены в качестве наших услуг
+                и готовы обеспечить клиентов всем необходимым для успешного
+                выполнения задач.
+              </p>
+              <p>
+                Наша компания предоставляет услуги аренды автовышки для
+                комфортной и безопасной работы на высоте. Всю нашу технику
+                регулярно обслуживают квалифицированные специалисты и она
+                проходит тщательный контроль перед работой.
+              </p>
+              <p>
+                ООО "ДвижСтрой" гарантирует своим клиентам высокое качество
+                услуг и быструю доставку техники в любую точку России. Наша
+                команда профессионалов готова ответить на все ваши вопросы и
+                предоставить вам полную информацию о наших услугах. Свяжитесь с
+                нами и мы поможем вам выбрать необходимую спецтехнику для вашего
+                проекта.
+              </p>
+            </article>
+          </div>
+        </section>
         <section class="hero">
           <div class="hero-title">
             <h1>
@@ -68,8 +138,16 @@
             </div>
           </div>
           <div class="hero-grid">
-            <div class="hero-grid-image">
-              <img src="./img/start-screen/start-page-image.jpg" alt="image" />
+            <div
+              class="hero-grid-image"
+              itemscope
+              itemtype="http://schema.org/ImageObject"
+            >
+              <img
+                itemprop="contentUrl"
+                src="./img/start-screen/start-page-image.jpg"
+                alt="экскаватор'"
+              />
             </div>
             <div class="hero-grid-advantages">
               <div class="hero-advantage">
@@ -90,7 +168,9 @@
               </div>
             </div>
             <div class="hero-grid-button">
-              <div class="hero-btn cta-button">Заказать звонок</div>
+              <button class="hero-btn cta-button open-modal-btn">
+                Заказать звонок
+              </button>
             </div>
           </div>
         </section>
@@ -147,14 +227,25 @@
           <form class="why-form">
             <h3 class="form-title">Оставьте заявку</h3>
             <div class="form-subtitle">Заполните форму и мы Вам перезвоним</div>
-            <input type="text" placeholder="Ваше имя" />
-            <input type="text" placeholder="Номер телефона" />
+            <input
+              type="text"
+              placeholder="Ваше имя"
+              class="_required"
+              name="name"
+            />
+            <input
+              type="text"
+              placeholder="Номер телефона"
+              class="phone-input _required"
+              name="phone"
+            />
             <div class="checkbox-input">
-              <input type="checkbox" id="why-form-checkbox" name="agreement" />
+              <input type="checkbox" id="why-form-checkbox" class="_required" />
               <label for="why-form-checkbox"
                 >Согласен(на) на обработку персональных данных</label
               >
             </div>
+            <div class="form-status"></div>
             <button class="form-btn cta-button">Оставить заявку</button>
           </form>
           <div class="why-form-image">
@@ -163,164 +254,332 @@
         </section>
         <section class="autopark">
           <h2>Наш <span>автопарк</span></h2>
-          <div class="autopark-grid">
-            <div class="autopark-item">
+          <div
+            class="autopark-grid"
+            itemscope
+            itemtype="http://schema.org/ItemList"
+          >
+            <div
+              class="autopark-item open-modal-btn"
+              itemscope
+              itemprop="itemListElement"
+              itemtype="http://schema.org/Product"
+            >
               <img
+                itemprop="image"
                 src="./img/autopark/machine01.png"
                 alt="Гусеничные экскаваторы"
               />
-              <div class="autopark-item-title">Гусеничные экскаваторы</div>
+              <div class="autopark-item-title" itemprop="name">
+                Гусеничные экскаваторы
+              </div>
+              <meta itemprop="description" content="услуги экскаватора" />
             </div>
-            <div class="autopark-item">
+            <div
+              class="autopark-item open-modal-btn"
+              itemscope
+              itemprop="itemListElement"
+              itemtype="http://schema.org/Product"
+            >
               <img
+                itemprop="image"
                 src="./img/autopark/machine02.png"
-                alt="Гусеничные экскаваторы"
+                alt="Бульдозеры"
               />
-              <div class="autopark-item-title">Бульдозеры</div>
+              <div class="autopark-item-title" itemprop="name">Бульдозеры</div>
+              <meta itemprop="description" content="аренда бульдозера" />
             </div>
-            <div class="autopark-item">
+            <div
+              class="autopark-item open-modal-btn"
+              itemscope
+              itemprop="itemListElement"
+              itemtype="http://schema.org/Product"
+            >
               <img
+                itemprop="image"
                 src="./img/autopark/machine03.png"
-                alt="Гусеничные экскаваторы"
+                alt="Автокраны"
               />
-              <div class="autopark-item-title">Автокраны</div>
+              <div class="autopark-item-title" itemprop="name">Автокраны</div>
+              <meta itemprop="description" content="аренда автокрана" />
             </div>
-            <div class="autopark-item">
+            <div
+              class="autopark-item open-modal-btn"
+              itemscope
+              itemprop="itemListElement"
+              itemtype="http://schema.org/Product"
+            >
               <img
+                itemprop="image"
                 src="./img/autopark/machine04.png"
-                alt="Гусеничные экскаваторы"
+                alt="Погрузчики"
               />
-              <div class="autopark-item-title">Погрузчики</div>
+              <div class="autopark-item-title" itemprop="name">Погрузчики</div>
+              <meta itemprop="description" content="услуги погрузчика" />
             </div>
-            <div class="autopark-item">
+            <div
+              class="autopark-item open-modal-btn"
+              itemscope
+              itemprop="itemListElement"
+              itemtype="http://schema.org/Product"
+            >
               <img
+                itemprop="image"
                 src="./img/autopark/machine05.png"
-                alt="Гусеничные экскаваторы"
+                alt="Тралы и Эвакуаторы"
               />
-              <div class="autopark-item-title">Тралы и Эвакуаторы</div>
+              <div class="autopark-item-title" itemprop="name">
+                Тралы и Эвакуаторы
+              </div>
+              <meta itemprop="description" content="услуги эвакуатора" />
             </div>
-            <div class="autopark-item">
+            <div
+              class="autopark-item open-modal-btn"
+              itemscope
+              itemprop="itemListElement"
+              itemtype="http://schema.org/Product"
+            >
               <img
+                itemprop="image"
                 src="./img/autopark/machine06.png"
-                alt="Гусеничные экскаваторы"
+                alt="Асфальтная группа"
               />
-              <div class="autopark-item-title">Асфальтная группа</div>
+              <div class="autopark-item-title" itemprop="name">
+                Асфальтная группа
+              </div>
+              <meta itemprop="description" content="аренда асфальтной группы" />
             </div>
-            <div class="autopark-item">
+            <div
+              class="autopark-item open-modal-btn"
+              itemscope
+              itemprop="itemListElement"
+              itemtype="http://schema.org/Product"
+            >
               <img
+                itemprop="image"
                 src="./img/autopark/machine07.png"
-                alt="Гусеничные экскаваторы"
+                alt="Самосвалы"
               />
-              <div class="autopark-item-title">Самосвалы</div>
+              <div class="autopark-item-title" itemprop="name">Самосвалы</div>
+              <meta itemprop="description" content="аренда самосвала" />
             </div>
-            <div class="autopark-item">
+            <div
+              class="autopark-item open-modal-btn"
+              itemscope
+              itemprop="itemListElement"
+              itemtype="http://schema.org/Product"
+            >
               <img
+                itemprop="image"
                 src="./img/autopark/machine08.png"
-                alt="Гусеничные экскаваторы"
+                alt="Уборочная техника"
               />
-              <div class="autopark-item-title">Уборочная техника</div>
+              <div class="autopark-item-title" itemprop="name">
+                Уборочная техника
+              </div>
+              <meta
+                itemprop="description"
+                content="уборочная техника в аренду"
+              />
             </div>
-            <div class="autopark-item">
+            <div
+              class="autopark-item open-modal-btn"
+              itemscope
+              itemprop="itemListElement"
+              itemtype="http://schema.org/Product"
+            >
               <img
+                itemprop="image"
                 src="./img/autopark/machine09.png"
-                alt="Гусеничные экскаваторы"
+                alt="Компрессоры"
               />
-              <div class="autopark-item-title">Компрессоры</div>
+              <div class="autopark-item-title" itemprop="name">Компрессоры</div>
+              <meta itemprop="description" content="аренда компрессора" />
             </div>
-            <div class="autopark-item">
+            <div
+              class="autopark-item open-modal-btn"
+              itemscope
+              itemprop="itemListElement"
+              itemtype="http://schema.org/Product"
+            >
               <img
+                itemprop="image"
                 src="./img/autopark/machine10.png"
-                alt="Гусеничные экскаваторы"
+                alt="Ямобуры"
               />
-              <div class="autopark-item-title">Ямобуры</div>
+              <div class="autopark-item-title" itemprop="name">Ямобуры</div>
+              <meta itemprop="description" content="аренда ямобура" />
             </div>
-            <div class="autopark-item">
+            <div
+              class="autopark-item open-modal-btn"
+              itemscope
+              itemprop="itemListElement"
+              itemtype="http://schema.org/Product"
+            >
               <img
+                itemprop="image"
                 src="./img/autopark/machine11.png"
-                alt="Гусеничные экскаваторы"
+                alt="Шаланды"
               />
-              <div class="autopark-item-title">Шаланды</div>
+              <div class="autopark-item-title" itemprop="name">Шаланды</div>
+              <meta itemprop="description" content="аренда воровайки" />
             </div>
-            <div class="autopark-item">
+            <div
+              class="autopark-item open-modal-btn"
+              itemscope
+              itemprop="itemListElement"
+              itemtype="http://schema.org/Product"
+            >
               <img
+                itemprop="image"
                 src="./img/autopark/machine12.png"
-                alt="Гусеничные экскаваторы"
+                alt="Автовышки"
               />
-              <div class="autopark-item-title">Автовышки</div>
+              <div class="autopark-item-title" itemprop="name">Автовышки</div>
+              <meta itemprop="description" content="аренда автовышки" />
             </div>
           </div>
         </section>
         <section class="faq">
           <h2><span>Частые вопросы</span><br />от заказчиков</h2>
           <div class="faq-content">
-            <div class="faq-list">
-              <div class="faq-item">
-                <input type="checkbox" id="faq1" />
-                <label for="faq1" class="faq-question"
-                  >Работаете ли вы по постоплате?</label
-                >
-                <div class="faq-item-icon">
-                  <img src="./img/form/faq-item-icon.svg" alt="icon" />
+            <div
+              class="faq-list"
+              itemscope
+              itemtype="https://schema.org/FAQPage"
+            >
+              <div
+                class="faq-item"
+                itemprop="mainEntity"
+                itemscope
+                itemtype="https://schema.org/Question"
+              >
+                <div class="faq-header">
+                  <div class="faq-question" itemprop="name">
+                    Работаете ли вы по постоплате?
+                  </div>
+                  <div class="faq-icon">
+                    <img src="./img/form/faq-item-icon.svg" alt="icon" />
+                  </div>
                 </div>
-                <p class="faq-answer">
-                  Чаще всего мы работаем по предоплате, но в некоторых случаях
-                  можем предложить систему постоплаты.
+                <p
+                  class="faq-answer"
+                  itemprop="acceptedAnswer"
+                  itemscope=""
+                  itemtype="http://schema.org/Answer"
+                >
+                  <span itemprop="text">
+                    Чаще всего мы работаем по предоплате, но в некоторых случаях
+                    можем предложить систему постоплаты.
+                  </span>
                 </p>
               </div>
-              <div class="faq-item">
-                <input type="checkbox" id="faq2" />
-                <label for="faq2" class="faq-question"
-                  >КАК ОСУЩЕСТВЛЯЕТСЯ ОБМЕН ПЕРВИЧНОЙ ДОКУМЕНТАЦИЕЙ?</label
-                >
-                <div class="faq-item-icon">
-                  <img src="./img/form/faq-item-icon.svg" alt="icon" />
+              <div
+                class="faq-item"
+                itemprop="mainEntity"
+                itemscope
+                itemtype="https://schema.org/Question"
+              >
+                <div class="faq-header">
+                  <div class="faq-question" itemprop="name">
+                    КАК ОСУЩЕСТВЛЯЕТСЯ ОБМЕН ПЕРВИЧНОЙ ДОКУМЕНТАЦИЕЙ?
+                  </div>
+                  <div class="faq-icon">
+                    <img src="./img/form/faq-item-icon.svg" alt="icon" />
+                  </div>
                 </div>
-                <p class="faq-answer">
-                  Мы используем в работе систему ЭДО (Электронный
-                  документооборот). Если заказчик не работает с ЭДО отправляем
-                  документы курьерской службой.
+                <p
+                  class="faq-answer"
+                  itemprop="acceptedAnswer"
+                  itemscope=""
+                  itemtype="http://schema.org/Answer"
+                >
+                  <span itemprop="text">
+                    Мы используем в работе систему ЭДО (Электронный
+                    документооборот). Если заказчик не работает с ЭДО отправляем
+                    документы курьерской службой.
+                  </span>
                 </p>
               </div>
-              <div class="faq-item">
-                <input type="checkbox" id="faq3" />
-                <label for="faq3" class="faq-question"
-                  >ПРЕДОСТАВЛЯЕТЕ ЛИ ВЫ ДОКУМЕНТЫ НА СПЕЦТЕХНИКУ И НА
-                  МАШИНИСТОВ?</label
-                >
-                <div class="faq-item-icon">
-                  <img src="./img/form/faq-item-icon.svg" alt="icon" />
+              <div
+                class="faq-item"
+                itemprop="mainEntity"
+                itemscope
+                itemtype="https://schema.org/Question"
+              >
+                <div class="faq-header">
+                  <div class="faq-question" itemprop="name">
+                    ПРЕДОСТАВЛЯЕТЕ ЛИ ВЫ ДОКУМЕНТЫ НА СПЕЦТЕХНИКУ И НА
+                    МАШИНИСТОВ?
+                  </div>
+                  <div class="faq-icon">
+                    <img src="./img/form/faq-item-icon.svg" alt="icon" />
+                  </div>
                 </div>
-                <p class="faq-answer">
-                  На этапе заключения договора отправляем все необходимые
-                  подтверждающие документы от ООО «ДвижСтрой» на спецтехнику и
-                  дорожно-строительную технику компании, документы на машинистов
-                  и операторов спецтехники для оформления пропусков на Ваш
-                  объект.
+                <p
+                  class="faq-answer"
+                  itemprop="acceptedAnswer"
+                  itemscope=""
+                  itemtype="http://schema.org/Answer"
+                >
+                  <span itemprop="text">
+                    На этапе заключения договора отправляем все необходимые
+                    подтверждающие документы от ООО «ДвижСтрой» на спецтехнику и
+                    дорожно-строительную технику компании, документы на
+                    машинистов и операторов спецтехники для оформления пропусков
+                    на Ваш объект.
+                  </span>
                 </p>
               </div>
-              <div class="faq-item">
-                <input type="checkbox" id="faq4" />
-                <label for="faq4" class="faq-question"
-                  >Каким образом техника доставляется на объект?</label
-                >
-                <div class="faq-item-icon">
-                  <img src="./img/form/faq-item-icon.svg" alt="icon" />
+              <div
+                class="faq-item"
+                itemprop="mainEntity"
+                itemscope
+                itemtype="https://schema.org/Question"
+              >
+                <div class="faq-header">
+                  <div class="faq-question" itemprop="name">
+                    Каким образом техника доставляется на объект?
+                  </div>
+                  <div class="faq-icon">
+                    <img src="./img/form/faq-item-icon.svg" alt="icon" />
+                  </div>
                 </div>
-                <p class="faq-answer">
-                  Техника доставляется на объект нашими силами за счет
-                  заказчика.
+                <p
+                  class="faq-answer"
+                  itemprop="acceptedAnswer"
+                  itemscope=""
+                  itemtype="http://schema.org/Answer"
+                >
+                  <span itemprop="text">
+                    Техника доставляется на объект нашими силами за счет
+                    заказчика.
+                  </span>
                 </p>
               </div>
-              <div class="faq-item">
-                <input type="checkbox" id="faq5" />
-                <label for="faq5" class="faq-question"
-                  >Каким образом происходит расчЁт?</label
-                >
-                <div class="faq-item-icon">
-                  <img src="./img/form/faq-item-icon.svg" alt="icon" />
+              <div
+                class="faq-item"
+                itemprop="mainEntity"
+                itemscope
+                itemtype="https://schema.org/Question"
+              >
+                <div class="faq-header">
+                  <div class="faq-question" itemprop="name">
+                    Каким образом происходит расчЁт?
+                  </div>
+                  <div class="faq-icon">
+                    <img src="./img/form/faq-item-icon.svg" alt="icon" />
+                  </div>
                 </div>
-                <p class="faq-answer">
-                  Расчет производится наличный/безналичный расчет.
+                <p
+                  class="faq-answer"
+                  itemprop="acceptedAnswer"
+                  itemscope=""
+                  itemtype="http://schema.org/Answer"
+                >
+                  <span itemprop="text">
+                    Производится наличный/безналичный расчет.
+                  </span>
                 </p>
               </div>
             </div>
@@ -329,51 +588,64 @@
               <div class="form-subtitle">
                 Заполните форму и мы Вам перезвоним
               </div>
-              <input type="text" placeholder="Ваше имя" />
-              <input type="text" placeholder="Номер телефона" />
+              <input
+                type="text"
+                placeholder="Ваше имя"
+                class="_required"
+                name="name"
+              />
+              <input
+                type="text"
+                placeholder="Номер телефона"
+                class="phone-input _required"
+                name="phone"
+              />
               <div class="checkbox-input">
                 <input
                   type="checkbox"
                   id="faq-form-checkbox"
-                  name="agreement"
+                  class="_required"
                 />
                 <label for="faq-form-checkbox"
                   >Согласен(на) на обработку персональных данных</label
                 >
               </div>
+              <div class="form-status"></div>
               <button class="form-btn cta-button">Оставить заявку</button>
             </form>
           </div>
         </section>
-        <section class="clients">
+      </div>
+      <section class="clients">
+        <div class="container">
           <h2>Наши <span>клиенты</span></h2>
-          <div class="clients-swiper">
-            <div class="swiper-wrapper">
-              <div class="swiper-slide clients-slide">ООО «ГринЛайт»</div>
-              <div class="swiper-slide clients-slide">
-                ООО «Строительное управление-38»
-              </div>
-              <div class="swiper-slide clients-slide">ООО «СВ-Энерджи»</div>
-              <div class="swiper-slide clients-slide">
-                ООО «УТТ ТРАНСДИВЕРС»
-              </div>
-              <div class="swiper-slide clients-slide">
-                ООО «Южный Строительный Альянс»
-              </div>
-              <div class="swiper-slide clients-slide">ООО «СК «Новоселье»</div>
-              <div class="swiper-slide clients-slide">
-                ООО «Специализированный застройщик «Городские Кварталы»
-              </div>
-              <div class="swiper-slide clients-slide">
-                ООО «Строительное Управление-60»
-              </div>
-              <div class="swiper-slide clients-slide">ООО ТТК «РИД»</div>
-              <div class="swiper-slide clients-slide">
-                ООО «Строительное Управление-967»
-              </div>
+        </div>
+        <div class="clients-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide clients-slide">ООО «ГринЛайт»</div>
+            <div class="swiper-slide clients-slide">
+              ООО «Строительное управление-38»
+            </div>
+            <div class="swiper-slide clients-slide">ООО «СВ-Энерджи»</div>
+            <div class="swiper-slide clients-slide">ООО «УТТ ТРАНСДИВЕРС»</div>
+            <div class="swiper-slide clients-slide">
+              ООО «Южный Строительный Альянс»
+            </div>
+            <div class="swiper-slide clients-slide">ООО «СК «Новоселье»</div>
+            <div class="swiper-slide clients-slide">
+              ООО «Специализированный застройщик «Городские Кварталы»
+            </div>
+            <div class="swiper-slide clients-slide">
+              ООО «Строительное Управление-60»
+            </div>
+            <div class="swiper-slide clients-slide">ООО ТТК «РИД»</div>
+            <div class="swiper-slide clients-slide">
+              ООО «Строительное Управление-967»
             </div>
           </div>
-        </section>
+        </div>
+      </section>
+      <div class="container">
         <section class="testimonials">
           <div class="testimonials-swiper">
             <div class="testimonials-header">
@@ -392,76 +664,113 @@
               </div>
             </div>
             <div class="swiper">
-              <div class="swiper-wrapper">
-                <div class="swiper-slide testimonial-item">
-                  <div class="testimonial-text">
+              <div
+                class="swiper-wrapper"
+                itemscope
+                itemtype="http://schema.org/ItemList"
+              >
+                <div
+                  class="swiper-slide testimonial-item"
+                  itemscope
+                  itemprop="itemListElement"
+                  itemtype="http://schema.org/Review"
+                >
+                  <div class="testimonial-text" itemprop="reviewBody">
                     Работаем с данным подрядчиком с 2021 года. ООО «ДвижСтрой»
                     зарекомендовал себя, как надёжных и порядочных партнёров.
                   </div>
                   <div class="testimonial-person">
-                    <div class="testimonial-author">
+                    <div class="testimonial-author" itemprop="author">
                       Назаров Денис Алексеевич
                     </div>
-                    <div class="testimonial-position">
-                      Генеральный директор ООО «УТТ Трансдиверс»
+                    <div
+                      class="testimonial-position"
+                      itemprop="itemReviewed"
+                      itemscope
+                      itemtype="https://schema.org/Organization"
+                    >
+                      <span itemprop="name">
+                        Генеральный директор ООО «УТТ Трансдиверс»
+                      </span>
                     </div>
                   </div>
                 </div>
-                <div class="swiper-slide testimonial-item">
-                  <div class="testimonial-text">
+                <div
+                  class="swiper-slide testimonial-item"
+                  itemscope
+                  itemprop="itemListElement"
+                  itemtype="http://schema.org/Review"
+                >
+                  <div class="testimonial-text" itemprop="reviewBody">
                     Длительное сотрудничество с ООО «ДвижСтрой» было
                     плодотворным и комфортным. Возникающие вопросы всегда
                     решались оперативно.
                   </div>
                   <div class="testimonial-person">
-                    <div class="testimonial-author">
+                    <div class="testimonial-author" itemprop="author">
                       Манджиев Юрий Сергеевич
                     </div>
-                    <div class="testimonial-position">
-                      Генеральный директор ООО «Строительное управление — 38»
+                    <div
+                      class="testimonial-position"
+                      itemprop="itemReviewed"
+                      itemscope
+                      itemtype="https://schema.org/Organization"
+                    >
+                      <span itemprop="name">
+                        Генеральный директор ООО «Строительное управление — 38»
+                      </span>
                     </div>
                   </div>
                 </div>
-                <div class="swiper-slide testimonial-item">
-                  <div class="testimonial-text">
-                    Работаем с данным подрядчиком с 2021 года. ООО «ДвижСтрой»
-                    зарекомендовал себя, как надёжных и порядочных партнёров.
+                <div
+                  class="swiper-slide testimonial-item"
+                  itemscope
+                  itemprop="itemListElement"
+                  itemtype="http://schema.org/Review"
+                >
+                  <div class="testimonial-text" itemprop="reviewBody">
+                    Рекомендую компанию “ДвижСтрой”, имею исключительно
+                    положительный опыт сотрудничества.
                   </div>
                   <div class="testimonial-person">
-                    <div class="testimonial-author">
-                      Назаров Денис Алексеевич
+                    <div class="testimonial-author" itemprop="author">
+                      Зейтунян Аршак Завенович
                     </div>
-                    <div class="testimonial-position">
-                      Генеральный директор ООО «УТТ Трансдиверс»
+                    <div
+                      class="testimonial-position"
+                      itemprop="itemReviewed"
+                      itemscope
+                      itemtype="https://schema.org/Organization"
+                    >
+                      <span itemprop="name">
+                        Генеральный директор ООО “Южный Строительный Альянс”
+                      </span>
                     </div>
                   </div>
                 </div>
-                <div class="swiper-slide testimonial-item">
-                  <div class="testimonial-text">
-                    Длительное сотрудничество с ООО «ДвижСтрой» было
-                    плодотворным и комфортным. Возникающие вопросы всегда
-                    решались оперативно.
+                <div
+                  class="swiper-slide testimonial-item"
+                  itemscope
+                  itemprop="itemListElement"
+                  itemtype="http://schema.org/Review"
+                >
+                  <div class="testimonial-text" itemprop="reviewBody">
+                    Смело рекомендую данных подрядчиков.Не подводили даже в
+                    самых непростых ситуациях.
                   </div>
                   <div class="testimonial-person">
-                    <div class="testimonial-author">
-                      Манджиев Юрий Сергеевич
+                    <div class="testimonial-author" itemprop="author">
+                      Величко Андрей Викторович
                     </div>
-                    <div class="testimonial-position">
-                      Генеральный директор ООО «Строительное управление — 38»
-                    </div>
-                  </div>
-                </div>
-                <div class="swiper-slide testimonial-item">
-                  <div class="testimonial-text">
-                    Работаем с данным подрядчиком с 2021 года. ООО «ДвижСтрой»
-                    зарекомендовал себя, как надёжных и порядочных партнёров.
-                  </div>
-                  <div class="testimonial-person">
-                    <div class="testimonial-author">
-                      Назаров Денис Алексеевич
-                    </div>
-                    <div class="testimonial-position">
-                      Генеральный директор ООО «УТТ Трансдиверс»
+                    <div
+                      class="testimonial-position"
+                      itemprop="itemReviewed"
+                      itemscope
+                      itemtype="https://schema.org/Organization"
+                    >
+                      <span itemprop="name">
+                        ООО “СЗ “Городские Кварталы” Генеральный директор
+                      </span>
                     </div>
                   </div>
                 </div>
@@ -470,15 +779,32 @@
             </div>
           </div>
         </section>
-      </main>
-    </div>
-    <footer class="footer">
+      </div>
+    </main>
+    <footer class="footer" itemscope itemtype="http://schema.org/Organization">
+      <div
+        itemprop="address"
+        itemscope
+        itemtype="https://schema.org/PostalAddress"
+      >
+        <meta itemprop="postalCode" content="196233" />
+        <meta itemprop="addressCountry" content="Российская Федерация" />
+        <meta itemprop="addressRegion" content="Ленинградская область" />
+        <meta itemprop="addressLocality" content="Санкт-Петербург" />
+        <meta
+          itemprop="streetAddress"
+          content="пр-кт Космонавтов, д. 50 к. 3 литера А, помещ. 4-н ком. 5-1"
+        />
+      </div>
       <div class="container">
         <div class="footer-row">
           <div class="footer-item">
             <div class="footer-item-title">Ответим на любые вопросы:</div>
             <div class="footer-item-link">
-              <a href="tel:+79516648494" class="yellow-orange-link"
+              <a
+                href="tel:+79516648494"
+                class="yellow-orange-link"
+                itemprop="telephone"
                 >+7 (951) 664-84-94</a
               >
             </div>
@@ -486,7 +812,10 @@
           <div class="footer-item">
             <div class="footer-item-title">Предложения и консультация:</div>
             <div class="footer-item-link">
-              <a href="mailto:dvizhstroy@yandex.ru" class="yellow-orange-link"
+              <a
+                href="mailto:dvizhstroy@yandex.ru"
+                class="yellow-orange-link"
+                itemprop="email"
                 >dvizhstroy@yandex.ru</a
               >
             </div>
@@ -494,7 +823,11 @@
           <div class="footer-item">
             <div class="footer-item-title">Мы онлайн:</div>
             <div class="footer-item-link">
-              <a href="#" class="tg-social yellow-orange-icon">
+              <a
+                href="https://t.me/+79516648494"
+                class="tg-social yellow-orange-icon"
+                target="_blank"
+              >
                 <svg
                   width="30"
                   height="30"
@@ -508,7 +841,11 @@
                   />
                 </svg>
               </a>
-              <a href="#" class="wa-social yellow-orange-icon">
+              <a
+                href="https://wa.me/+79516648494"
+                class="wa-social yellow-orange-icon"
+                target="_blank"
+              >
                 <svg
                   width="30"
                   height="30"
@@ -525,11 +862,13 @@
             </div>
           </div>
           <div class="footer-item">
-            <a href="#" class="footer-btn cta-button">ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</a>
+            <a href="#" class="footer-btn cta-button open-modal-btn"
+              >ПОЛУЧИТЬ КОНСУЛЬТАЦИЮ</a
+            >
           </div>
         </div>
         <div class="footer-data">
-          <div class="footer-data-item">ООО «ДвижСтрой»</div>
+          <div class="footer-data-item" itemprop="name">ООО «ДвижСтрой»</div>
           <div class="footer-data-item">ИНН: 7820077701</div>
           <div class="footer-data-item">ОГРН: 1217800094445</div>
           <div class="footer-data-link">
@@ -538,6 +877,37 @@
         </div>
       </div>
     </footer>
+    <div class="modal lock-padding">
+      <form class="why-form modal-body">
+        <div class="close-modal-btn">
+          <img src="./img/close-modal-icon.svg" alt="icon" />
+        </div>
+        <h3 class="form-title">
+          Оставьте заявку<br />на <span>обратный звонок</span>
+        </h3>
+        <div class="form-subtitle">Заполните форму и мы Вам перезвоним</div>
+        <input
+          type="text"
+          name="name"
+          placeholder="Ваше имя"
+          class="_required"
+        />
+        <input
+          type="text"
+          placeholder="Номер телефона"
+          class="phone-input _required"
+          name="phone"
+        />
+        <div class="checkbox-input">
+          <input type="checkbox" id="modal-form-checkbox" class="_required" />
+          <label for="modal-form-checkbox"
+            >Согласен(на) на обработку персональных данных</label
+          >
+        </div>
+        <div class="form-status"></div>
+        <button class="form-btn cta-button">Оставить заявку</button>
+      </form>
+    </div>
     <script src="./js/swiper-bundle.min.js"></script>
     <script src="./js/script.js"></script>
   </body>
